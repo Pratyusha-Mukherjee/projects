@@ -6,6 +6,7 @@ body {
 header {
     background-color: rgb(220, 164, 124);
     color: rgb(114, 4, 85);
+    text-align: center;
 }
 
 main {
@@ -15,5 +16,19 @@ main {
 
 footer {
     background-color: rgb(105, 132, 116);
-    color: rgb(50, 30, 30)
+    color: rgb(50, 30, 30);
+    text-align:center;
+}
+#profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;  
+}
+#menu{
+    text-decoration: none;
+    font-weight: bolder;
+}
+#intro{
+    font-weight: bold;
 }
