@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 211, 182);
+    color: (60, 7, 83);
+}
+
+header {
+    background-color: rgb(220, 164, 124);
+    color: rgb(114, 4, 85);
+}
+
+main {
+    background-color: rgb(252, 248, 243);
+    color:rgb(3, 6, 55); 
+}
+
+footer {
+    background-color: rgb(105, 132, 116);
+    color: rgb(50, 30, 30)
+}
