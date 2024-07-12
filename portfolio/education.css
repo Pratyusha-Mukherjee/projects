@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(255, 211, 182);
+}
+header{
+    background-color: rgb(220, 164, 124);
+    color: rgb(114, 4, 85);
+    text-align: center;
+}
+.edu{
+    background-color: rgb(252, 248, 243);
+    color:rgb(3, 6, 55); 
+}
+#college{
+    text-align: center;
+}
+#course{
+    text-align: start;
+}
