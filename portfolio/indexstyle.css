@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(255, 211, 182);
     color: (60, 7, 83);
@@ -8,12 +9,13 @@ header {
     color: rgb(114, 4, 85);
     text-align: center;
     font-size: larger;
+    font-family: Georgia;
 }
 
 main {
     background-color: rgb(252, 248, 243);
     color:rgb(3, 6, 55); 
-    font-size: 1.5rem;
+    
 }
 
 
@@ -21,7 +23,7 @@ footer {
     background-color: rgb(105, 132, 116);
     color: rgb(50, 30, 30);
     text-align:center;
-    font-size: 1.2rem;
+    font-size: 25px;
 }
 #profile-picture{
     display: block;
@@ -32,7 +34,13 @@ footer {
 #menu{
     text-decoration: none;
     font-weight: bolder;
+    font-size: 30px
 }
 #intro{
-    font-weight: bold;
+    font-weight:300;
+    font-family: arial;
+    font-size: 1.2rem;
+}
+#hello{
+    font-family:Brush Script MT;
 }
