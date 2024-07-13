@@ -19,3 +19,18 @@ a{
     margin-right: 200px;
     text-decoration: none;
 }
+.content{
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    display:inline-block;
+}
+footer{
+    color:#f3f3f5;
+    background-color: black;
+    text-align: center;
+
+}
+#contentarea{
+    height:610px;
+}
