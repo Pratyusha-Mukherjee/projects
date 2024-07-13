@@ -56,7 +56,7 @@ footer {
 }
 nav{
     line-height: 48px;
-    display:inline;
+    display:flex;
     gap:100px;
   
 }
@@ -71,8 +71,8 @@ nav{
     background-color: rgb(220, 164, 124) ;
     border-color:rgb(50, 30, 30);
     text-align: center;
-   padding:30px;
    text-decoration: none;
+   padding:30px;
    
 }
 #hobbies{
@@ -86,8 +86,8 @@ nav{
     background-color: rgb(220, 164, 124) ;
     border-color:rgb(50, 30, 30);
     text-align: center;
-   padding:30px;
    text-decoration: none;
+   padding:30px;
 
 }
 #achievement{
@@ -101,8 +101,8 @@ nav{
     background-color: rgb(220, 164, 124) ;
     border-color:rgb(50, 30, 30);
     text-align: center;
-   padding:30px;
    text-decoration: none;
+   padding:30px;
 }
 #project{
     text-decoration: none;
@@ -115,6 +115,6 @@ nav{
     background-color: rgb(220, 164, 124) ;
     border-color:rgb(50, 30, 30);
     text-align: center;
-   padding:30px;
    text-decoration: none;
+   padding:30px;
 }
