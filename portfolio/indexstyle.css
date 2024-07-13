@@ -1,4 +1,7 @@
-
+*{
+    margin : 0px;
+    padding: 0px;
+}
 body {
     background-color: rgb(255, 211, 182);
     color: (60, 7, 83);
@@ -10,9 +13,10 @@ header {
     text-align: center;
     font-size: larger;
     font-family: Georgia;
-    border-style: solid;
-    border-color:rgb(114, 4, 85);
+    border-style:hidden;
     border-radius:10px;
+    height: 60px;
+
 }
 
 main {
