@@ -10,31 +10,36 @@ header {
     text-align: center;
     font-size: larger;
     font-family: Georgia;
+    border-style: solid;
+    border-color:rgb(114, 4, 85);
+    border-radius:10px;
 }
 
 main {
     background-color: rgb(252, 248, 243);
     color:rgb(3, 6, 55); 
+    border-style: hidden;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-bottom: 5px;
     
 }
-
 
 footer {
     background-color: rgb(105, 132, 116);
     color: rgb(50, 30, 30);
     text-align:center;
     font-size: 25px;
+    border-style: solid;
+    border-color:rgb(50, 30, 30);
+    border-radius: 10px;
+    margin-top:8px;
 }
 #profile-picture{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width:10%;  
-}
-#menu{
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 30px
 }
 #intro{
     font-weight:300;
@@ -43,4 +48,61 @@ footer {
 }
 #hello{
     font-family:Brush Script MT;
+}
+nav{
+    line-height: 48px;
+    display: flex;
+    gap:100px;
+}
+#edu{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    height: 100px;
+    width:100px;
+    border-style: dashed;
+    border-radius:50%;
+    background-color: rgb(220, 164, 124) ;
+    border-color:rgb(50, 30, 30);
+    text-align: center;
+   padding-top:30px;
+}
+#hobbies{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    height: 100px;
+    width:100px;
+    border-style: dashed;
+    border-radius:50%;
+    background-color: rgb(220, 164, 124) ;
+    border-color:rgb(50, 30, 30);
+    text-align: center;
+   padding:30px;
+}
+#achievement{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    height: 100px;
+    width:100px;
+    border-style: dashed;
+    border-radius:50%;
+    background-color: rgb(220, 164, 124) ;
+    border-color:rgb(50, 30, 30);
+    text-align: center;
+   padding:30px;
+}
+#project{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    height: 100px;
+    width:100px;
+    border-style: dashed;
+    border-radius:50%;
+    background-color: rgb(220, 164, 124) ;
+    border-color:rgb(50, 30, 30);
+    text-align: center;
+   padding:30px;
 }
