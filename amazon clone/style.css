@@ -55,7 +55,6 @@
 .box2{
     height: 40px;
     width:720px;
-    border-radius:10%;
 }
 
 .add_search{
@@ -64,7 +63,7 @@
     height:40px;
     width:30px;
     align-items: center;
-    border-radius:8%;
+    border-radius:10%;
 }
    
 
