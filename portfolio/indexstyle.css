@@ -1,120 +1,119 @@
-*{
-    margin : 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
 }
+
 body {
     background-color: rgb(255, 211, 182);
-    color: (60, 7, 83);
+    color: rgb(60, 7, 83);
+    font-family: Arial, sans-serif;
+   
 }
 
 header {
     background-color: rgb(220, 164, 124);
     color: rgb(114, 4, 85);
     text-align: center;
-    font-size: larger;
-    font-family: Georgia;
-    border-style:hidden;
-    border-radius:10px;
-    height: 60px;
-
+    font-size: 1.5rem;
+    font-family: Georgia, serif;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 main {
-    background-color: rgb(252, 248, 243);
-    color:rgb(3, 6, 55); 
-    border-style: hidden;
-    border-radius: 10px;
-    border-width: 5px;
-    margin-bottom: 5px;
-  
-    
+    color: rgb(252, 248, 243);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-image: url("background.jpg");
+    background-size: cover;
 }
 
 footer {
     background-color: rgb(105, 132, 116);
     color: rgb(50, 30, 30);
-    text-align:center;
-    font-size: 25px;
-    border-style: solid;
-    border-color:rgb(50, 30, 30);
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid rgb(50, 30, 30);
     border-radius: 10px;
-    margin-top:8px;
+    padding: 10px 0;
+    margin-top: 10px;
 }
-#profile-picture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:10%;  
-}
-#intro{
-    font-weight:300;
-    font-family: arial;
-    font-size: 1.2rem;
-}
-#hello{
-    font-family:Brush Script MT;
-}
-nav{
-    line-height: 48px;
-    display:flex;
-    gap:100px;
-  
-}
-#edu{
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 19px;
-    height: 100px;
-    width:100px;
-    border-style: dashed;
-    border-radius:50%;
-    background-color: rgb(220, 164, 124) ;
-    border-color:rgb(50, 30, 30);
-    text-align: center;
-   text-decoration: none;
-   padding:30px;
-   
-}
-#hobbies{
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 19px;
-    height: 100px;
-    width:100px;
-    border-style: dashed;
-    border-radius:50%;
-    background-color: rgb(220, 164, 124) ;
-    border-color:rgb(50, 30, 30);
-    text-align: center;
-   text-decoration: none;
-   padding:30px;
 
+#profile-picture {
+    display: block;
+    margin: 20px auto;
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid rgb(50, 30, 30);
 }
-#achievement{
+
+#intro {
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#hello {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.content {
     text-decoration: none;
     font-weight: bolder;
-    font-size: 19px;
-    height: 100px;
-    width:100px;
-    border-style: dashed;
-    border-radius:50%;
-    background-color: rgb(220, 164, 124) ;
-    border-color:rgb(50, 30, 30);
+    font-size: 1.2rem;
+    height: 150px;
+    width: 150px;
+    border: 2px groove rgb(50, 30, 30);
+    border-radius: 50%;
+    background-color: rgb(220, 164, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-   text-decoration: none;
-   padding:30px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-#project{
+
+.content a {
+    color:rgb(53, 78, 63);
     text-decoration: none;
-    font-weight: bolder;
-    font-size: 19px;
-    height: 100px;
-    width:100px;
-    border-style: dashed;
-    border-radius:50%;
-    background-color: rgb(220, 164, 124) ;
-    border-color:rgb(50, 30, 30);
-    text-align: center;
-   text-decoration: none;
-   padding:30px;
+    transform: rotate(360deg);
+    
+}
+
+.content:hover {
+    background-color: rgb(230, 174, 134);
+    cursor: pointer;
+}
+
+a {
+    color: rgb(50, 30, 30);
+    text-decoration: none;
+}
+
+#education{
+    background-image: url("edu.jpg");
+    background-size: cover;
+    
+}
+#hobby{
+    background-image: url("hobby.jpg");
+    background-size: cover;
 }
