@@ -1,3 +1,35 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +40,7 @@ body {
     background-color: rgb(255, 211, 182);
     color: rgb(60, 7, 83);
     font-family: Arial, sans-serif;
+    animation: fadeIn 2s ease-in;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -20,6 +53,7 @@ header {
     border-radius: 10px;
     padding: 10px 0;
     margin-bottom: 10px;
+    animation: slideInFromTop 1.5s ease-out;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -30,6 +64,7 @@ main {
     margin-bottom: 10px;
     background-image: url("background.jpg");
     background-size: cover;
+    animation: fadeIn 2s ease-in;
     transition: background-size 0.3s ease, color 0.3s ease;
 }
 
@@ -42,8 +77,8 @@ footer {
     border-radius: 10px;
     padding: 10px 0;
     margin-top: 10px;
-    transition: background-color 0.3s ease;
-    color: 0.3s ease;
+    animation: slideInFromTop 1.5s ease-out;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #profile-picture {
@@ -53,6 +88,7 @@ footer {
     border-radius: 50%;
     border: 2px solid rgb(50, 30, 30);
     transition: transform 0.3s ease;
+    animation: bounceIn 1.5s;
 }
 
 #profile-picture:hover {
@@ -65,6 +101,7 @@ footer {
     font-size: 1.2rem;
     margin: 10px 0;
     text-align: center;
+    animation: fadeIn 2s ease-in;
     transition: color 0.3s ease;
 }
 
@@ -72,6 +109,7 @@ footer {
     font-family: 'Brush Script MT', cursive;
     font-size: 2rem;
     text-align: center;
+    animation: slideInFromTop 1.5s ease-out;
 }
 
 #menu {
@@ -80,6 +118,7 @@ footer {
     flex-wrap: wrap;
     padding: 10px 0;
     margin-bottom: 10px;
+    animation: fadeIn 2s ease-in;
 }
 
 .content {
@@ -98,8 +137,8 @@ footer {
     padding: 10px;
     margin: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    box-shadow:0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: bounceIn 1.5s;
 }
 
 .content a {
