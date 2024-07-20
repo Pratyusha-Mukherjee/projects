@@ -1,0 +1,19 @@
+* {
+        margin: 0;
+        font-family: arial;
+        background-color: black;
+        color:white;
+}
+.overall{
+    height:50%;
+    width:10%;
+    background-color: rgb(64, 83, 76);
+    padding:100px;
+    justify-content: flex;
+    align-items: center;
+}
+.photo{
+    height: 60px;
+    width:60px;
+    border:2px solid  white;
+}    
