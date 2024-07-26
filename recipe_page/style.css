@@ -7,20 +7,21 @@ body{
     margin:70px 150px 70px 150px;
     border-radius: 20px;
 }
-.image{
-    border-radius: 10px;
-}
-img{
-    height:540px;
-    width:95%;
-    object-fit: contain;
-    margin:26px;
+.image {
+    width: 95%;
+    margin: 26px;
     margin-top: 70px;
     padding-top: 30px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px; 
+}
+
+img {
+    width: 100%;
+    height: 540px;
+    object-fit: fill;
+    border-radius: 10px;
 }
 .section1{
     margin:26px;
