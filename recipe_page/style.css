@@ -49,6 +49,9 @@ img{
     line-height: 3rem;
     
  }
+ .section2:hover{
+    border:2px solid  rgb(82, 34, 88);
+ }
  
  h4{
     color:rgb(82, 34, 88);
