@@ -1,0 +1,23 @@
+/* body{
+    background-color: rgb(201, 218, 191);
+}
+
+.navbar{
+    height : 70px;
+    color:black;
+    display:flex;
+    justify-content: space-around;
+}
+
+/*navbar logo*/
+/* .navlogo{
+    height: 50px;
+    width: 130px;
+}
+.logo{
+    background-image: url(img/logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    background-size:cover;
+} */ 
